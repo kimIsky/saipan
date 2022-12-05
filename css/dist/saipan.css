@@ -1,0 +1,655 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.main_box {
+  width: 1000px;
+  background-color: #DBFDFD;
+  position: absolute;
+  left: 50%;
+  margin-left: -500px;
+}
+.main_box .head_top {
+  width: 1000px;
+  height: 30px;
+  background-color: #DBFDFD;
+  color: #6D7D7D;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 28px;
+}
+.main_box .back_img {
+  width: 1000px;
+  height: 464px;
+  background-color: #DBFDFD;
+}
+.main_box .mark_img {
+  width: 620px;
+  height: 442px;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  margin-left: -310px;
+}
+.main_box .button_all {
+  width: 756px;
+  height: 75px;
+  position: absolute;
+  top: 601px;
+  left: 500px;
+  margin-left: -375px;
+}
+.main_box .button_all .button_box {
+  width: 250px;
+  height: 75px;
+  background-color: #AFC9C9;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 75px;
+  font-weight: bold;
+  float: left;
+  margin: 0px 1px;
+  text-decoration: none;
+  transition: 0.6s;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.main_box .button_all .button_box:hover {
+  background-color: #3EBDBD;
+}
+.main_box .button_all .button_select {
+  background-color: #3EBDBD;
+}
+.main_box .mid_box1 {
+  width: 980px;
+  height: 860px;
+  border: 10px solid #3EBDBD;
+  background-color: white;
+  margin-top: 182px;
+}
+.main_box .mid_box1 .event_info {
+  width: 700px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 30px 90px 10px 90px;
+}
+.main_box .mid_box1 .mid_title {
+  width: 700px;
+  height: 50px;
+  font-size: 25px;
+  color: #5e5e5e;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  font-weight: bold;
+}
+.main_box .mid_box1 .mid_button {
+  width: 200px;
+  height: 40px;
+  background-color: #3EBDBD;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 37px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 20px 0px 5px 95px;
+  margin-top: 0px;
+}
+.main_box .mid_box1 .small_box {
+  width: 500px;
+  margin-left: 130px;
+}
+.main_box .mid_box1 .small_box .sort_t {
+  list-style-type: disc;
+  color: #5e5e5e;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+.main_box .mid_box1 .small_box .sort_p {
+  color: #5e5e5e;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.main_box .mid_box1 .sp_button1 {
+  width: 470px;
+  height: 40px;
+  background-color: #3EBDBD;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 37px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 20px 0px 5px 95px;
+  margin-top: 0px;
+}
+.main_box .mid_box1 .pic_sp1 {
+  width: 200px;
+  height: 100px;
+  margin: 10px 0px 10px 130px;
+}
+.main_box .mid_box1 .sp_button2 {
+  background-color: #3EBDBD;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 37px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 20px 0px 5px 95px;
+  width: 390px;
+  height: 40px;
+  margin-top: 0px;
+}
+.main_box .mid_box1 .pic_sp2 {
+  width: 187px;
+  height: 79px;
+  margin: 10px 0px 10px 130px;
+}
+.main_box .mid_box1 .pic_sp3 {
+  width: 169px;
+  height: 108px;
+  margin: 10px 0px;
+}
+.main_box .mid_box2 {
+  width: 980px;
+  height: 2500px;
+  border: 10px solid #3EBDBD;
+  background-color: white;
+  margin-top: 182px;
+}
+.main_box .mid_box2 .button_box2 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  margin: 20px 0px 10px 20px;
+  float: left;
+}
+.main_box .mid_box2 .font_set {
+  width: 880px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 110px;
+  color: #5e5e5e;
+}
+.main_box .mid_box2 .hotel_box {
+  width: 430px;
+  height: 450px;
+  background-color: #DBFDFD;
+  margin: 10px 30px 30px 30px;
+  float: left;
+}
+.main_box .mid_box2 .hotel_box .hotel_img {
+  width: 410px;
+  height: 340px;
+  margin: 10px;
+}
+.main_box .mid_box2 .hotel_box .hotel_price {
+  width: 430px;
+  height: 90px;
+  background-color: #f9f9f9;
+}
+.main_box .mid_box2 .hotel_box .hotel_price .hotel_night {
+  width: 50px;
+  height: 20px;
+  color: white;
+  background-color: #c0392b;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin: 10px 75px;
+  float: left;
+}
+.main_box .mid_box2 .hotel_box .hotel_price .prev_price {
+  width: 230px;
+  height: 40px;
+  color: #bebebe;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: line-through;
+  float: left;
+}
+.main_box .mid_box2 .hotel_box .hotel_price .hotel_sale {
+  width: 200px;
+  height: 40px;
+  color: #c0392b;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  padding-bottom: 10px;
+}
+.main_box .mid_box2 .hotel_box .hotel_price .hotel_pay {
+  width: 230px;
+  height: 40px;
+  color: #5e5e5e;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+  padding-bottom: 10px;
+}
+.main_box .mid_box2 .hotel_box .hotel_title {
+  width: 410px;
+  height: 50px;
+  background-color: rgba(128, 57, 57, 0.81);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+  position: absolute;
+  margin: 10px;
+  clear: both;
+}
+.main_box .mid_box2 .button_box3 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  clear: both;
+}
+.main_box .mid_box2 .back_box {
+  width: 430px;
+  height: 150px;
+  border: 10px solid #DBFDFD;
+  margin: 10px 10px 10px 20px;
+  float: left;
+}
+.main_box .mid_box2 .back_box .op_pic1 {
+  width: 230px;
+  height: 150px;
+  float: left;
+}
+.main_box .mid_box2 .back_box .small_title {
+  width: 200px;
+  height: 30px;
+  background-color: #3EBDBD;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: 17px;
+  line-height: 30px;
+  float: left;
+}
+.main_box .mid_box2 .back_box .content_box {
+  width: 192px;
+  height: 82px;
+  background-color: #f9f9f9;
+  color: #5e5e5e;
+  font-size: 13px;
+  padding: 4px;
+  display: inline-block;
+}
+.main_box .mid_box2 .back_box .content_boxf {
+  width: 192px;
+  height: 112px;
+  background-color: #f9f9f9;
+  color: #5e5e5e;
+  font-size: 13px;
+  padding: 4px;
+  display: inline-block;
+}
+.main_box .mid_box2 .back_box .bottom_title {
+  width: 200px;
+  height: 30px;
+  background-color: #AFC9C9;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  float: left;
+}
+.main_box .mid_box2 .back_box .bottom_title .bottom_color {
+  color: #5e5e5e;
+}
+.main_box .mid_box2 .button_box4 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  margin-top: 15px;
+  margin-right: 500px;
+  float: left;
+}
+.main_box .mid_box2 .button_box5 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  margin-top: 15px;
+  margin-right: 500px;
+  float: left;
+}
+.main_box .mid_box2 .sc_back {
+  width: 765px;
+  height: 350px;
+  margin-top: 10px;
+  margin-left: 40px;
+  float: left;
+}
+.main_box .mid_box2 .sc_back .sc_bt {
+  width: 65px;
+  height: 30px;
+  background-color: #3EBDBD;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  margin: 0px 10px 0px 0px;
+  float: left;
+}
+.main_box .mid_box2 .sc_back .sc_text1 {
+  width: 680px;
+  height: 70px;
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+.main_box .mid_box2 .sc_back .sc_text1 .sc_text2 {
+  clear: both;
+  font-weight: normal;
+}
+.main_box .mid_box3 {
+  width: 980px;
+  height: 3000px;
+  border: 10px solid #3EBDBD;
+  background-color: white;
+  margin-top: 182px;
+}
+.main_box .mid_box3 .button_box2 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  margin: 20px 0px 10px 20px;
+  float: left;
+}
+.main_box .mid_box3 .font_set {
+  width: 880px;
+  height: 100px;
+  color: #5e5e5e;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 110px;
+}
+.main_box .mid_box3 .hotel_box {
+  width: 430px;
+  height: 450px;
+  background-color: #DBFDFD;
+  margin: 10px 30px 30px 30px;
+  float: left;
+}
+.main_box .mid_box3 .hotel_box .hotel_img {
+  width: 410px;
+  height: 340px;
+  margin: 10px;
+}
+.main_box .mid_box3 .hotel_box .hotel_price {
+  width: 430px;
+  height: 90px;
+  background-color: #f9f9f9;
+}
+.main_box .mid_box3 .hotel_box .hotel_price .hotel_night {
+  width: 50px;
+  height: 20px;
+  color: white;
+  background-color: #c0392b;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin: 10px 75px;
+  float: left;
+}
+.main_box .mid_box3 .hotel_box .hotel_price .prev_price {
+  width: 230px;
+  height: 40px;
+  color: #bebebe;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: line-through;
+  float: left;
+}
+.main_box .mid_box3 .hotel_box .hotel_price .hotel_sale {
+  width: 200px;
+  height: 40px;
+  color: #c0392b;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+  padding-bottom: 10px;
+}
+.main_box .mid_box3 .hotel_box .hotel_price .hotel_pay {
+  width: 230px;
+  height: 40px;
+  color: #5e5e5e;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+  padding-bottom: 10px;
+}
+.main_box .mid_box3 .hotel_box .hotel_title {
+  width: 410px;
+  height: 50px;
+  background-color: rgba(128, 57, 57, 0.81);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+  position: absolute;
+  margin: 10px;
+  clear: both;
+}
+.main_box .mid_box3 .button_box4 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 500px;
+}
+.main_box .mid_box3 .back_box {
+  width: 430px;
+  height: 150px;
+  border: 10px solid #DBFDFD;
+  margin: 10px 10px 10px 20px;
+  float: left;
+}
+.main_box .mid_box3 .back_box .op_pic1 {
+  width: 230px;
+  height: 150px;
+  float: left;
+}
+.main_box .mid_box3 .back_box .small_title {
+  width: 200px;
+  height: 30px;
+  background-color: #3EBDBD;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  float: left;
+}
+.main_box .mid_box3 .back_box .content_box {
+  width: 192px;
+  height: 82px;
+  background-color: #f9f9f9;
+  color: #5e5e5e;
+  font-size: 13px;
+  padding: 4px;
+  display: inline-block;
+}
+.main_box .mid_box3 .back_box .content_boxf {
+  width: 192px;
+  height: 112px;
+  background-color: #f9f9f9;
+  color: #5e5e5e;
+  font-size: 13px;
+  padding: 4px;
+  display: inline-block;
+}
+.main_box .mid_box3 .back_box .bottom_title {
+  width: 200px;
+  height: 30px;
+  background-color: #AFC9C9;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-style: 17px;
+  line-height: 30px;
+  float: left;
+}
+.main_box .mid_box3 .back_box .bottom_title .bottom_color {
+  color: #5e5e5e;
+}
+.main_box .mid_box3 .button_box5 {
+  width: 220px;
+  height: 70px;
+  background-color: #6D7D7D;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 5px;
+  margin: 20px 0px 10px 20px;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 800px;
+}
+.main_box .mid_box3 .sc_back {
+  width: 775px;
+  height: 1300px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.main_box .mid_box3 .sc_back .sc_bt {
+  width: 65px;
+  height: 30px;
+  background-color: #3EBDBD;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 3px;
+  margin: 0px 10px 0px 0px;
+  float: left;
+}
+.main_box .mid_box3 .sc_back .sc_text1 {
+  width: 680px;
+  height: 70px;
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+.main_box .mid_box3 .sc_back .sc_text1 .sc_text2 {
+  clear: both;
+  font-weight: normal;
+}
+.main_box .mid_box3 .sc_back .sc_text3 {
+  width: 650px;
+  height: 30px;
+  color: #5e5e5e;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+}
+.main_box .mid_box3 .sc_back .margin_box {
+  margin: 0px 500px 20px 80px;
+}
+.main_box .mid_box3 .sc_back .margin_box1 {
+  margin-left: 80px;
+}
+.main_box .mid_box3 .sc_back .margin_box2 {
+  margin-bottom: 20px;
+}
+.main_box .mid_box3 .sc_back .mana_text {
+  width: 400px;
+  color: #5e5e5e;
+  font-size: 16px;
+  margin-left: 75px;
+  float: left;
+}
+.main_box .mid_box3 .sc_back .mana_info {
+  color: #e6392b;
+  font-size: 15px;
+  float: left;
+}
+.main_box .last_box {
+  width: 960px;
+  height: 170px;
+  background-color: #3EBDBD;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  border: 20px solid #3EBDBD;
+}
